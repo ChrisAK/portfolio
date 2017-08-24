@@ -6,29 +6,63 @@
 
       <!-- Do not add `link` tags-->
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+      <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
 
       <!-- Do not add `script` tags-->
       <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
-    <body class="container-fluid">
-      <ul id="nav">
-	       <li><a href="#index">Home</a></li>
-	       <li><a href="#about">About</a></li>
-	       <li><a href="#projects">Projects</a></li>
-	       <li><a href="#contact">Contact</a></li>
-      </ul>
+    <body class="container-fluid" id="home">
 
-      <header id="index">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          </div>
+        <!-- Collection of nav links and other content for toggling -->
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right" id="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header>
 	       <h1>Hey, I'm Chris Kennelly</h1>
 	       <h2>I build da websites!</h2>
+         <br>
+         <br>
 
-	       <p class="btn"><a href="portfolio.html">Check my portfolio!</a></p>
       </header>
 
       <main>
         <div id="about">
+          <br>
+          <br>
+          <h1>About ya boi!!!!</h1>
+        </div>
 
+        <div id="projects">
+          <br>
+          <br>
+          <h1>Wicked Projects!</h1>
+        </div>
+
+        <div id="contact">
+          <br>
+          <br>
+          <h1>This is how you can contact me.</h1>
         </div>
       </main>
     </body>

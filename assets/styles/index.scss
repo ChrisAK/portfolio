@@ -1,2 +1,44 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+body {
+  padding-top: 70px;
+  background-color: #000;
+  color: #fff;
+
+}
+
+header {
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+
+#about {
+  background-color: #f28d8a;
+  height: 700px;
+  font-family: 'Black Ops One', cursive;
+}
+
+#projects {
+  background-color: #8ab2f2;
+  height: 700px;
+  font-family: 'Black Ops One', cursive;
+}
+
+#contact {
+  background-color: #8fc675;
+  height: 700px;
+  font-family: 'Black Ops One', cursive;
+}
+
+.navbar {
+  background-color: #383838;
+  border-color: #383838;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  color: red;
+}
