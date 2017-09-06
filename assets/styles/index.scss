@@ -18,16 +18,28 @@ header {
   font-family: 'Black Ops One', cursive;
 }
 
+#about ul li {
+  font-size: 18px;
+}
+
 #projects {
   background-color: #8ab2f2;
   height: 700px;
   font-family: 'Black Ops One', cursive;
 }
 
+#projects p {
+  color: #e5e6e8;
+}
+
 #contact {
   background-color: #8fc675;
   height: 700px;
   font-family: 'Black Ops One', cursive;
+}
+
+.centered {
+  text-align: center;
 }
 
 .navbar {
